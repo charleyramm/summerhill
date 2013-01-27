@@ -78,7 +78,8 @@ a img.aligncenter {
 }
 
 
-
+/* =Remove default Wordpress [gallery] shortcode styles
+-------------------------------------------------------------- */
 .gallery-item{
 	width: auto !important;
 	height: auto;

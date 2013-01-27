@@ -1,0 +1,38 @@
+/*
+ * nav styles 
+ *
+ */
+.nav ul{
+	list-style-type: none;
+}
+.nav li{
+	margin-left: 0;
+	border-bottom: 1px dashed #a5a4a4;
+}
+.nav li a{
+	text-decoration: none;
+	color: #a5a4a4;
+	padding: 0.5em;
+	display: block;
+	height: 100%;
+
+}
+.nav ul ul{
+	margin-left: 1em;
+	margin-bottom: 0;
+	font-size: 85%;
+}
+.nav ul ul li{
+	border-bottom: none;
+}
+
+.current_page_item > a{
+	background-color: #f26522;
+	color: white !important;
+}
+
+.current_page_ancestor > a{
+	color: #f26522;
+}
+
+

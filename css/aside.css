@@ -1,0 +1,26 @@
+
+
+/* 
+ * Aside: blockquote, cite
+ *
+ */
+ .aside{
+	padding-top: 0.5em;
+ }
+ .aside blockquote{
+	 color: #525151;	
+	 background: #e5dfd2; 
+	 padding: 10px; 
+	 padding-top: 0;
+	 border: 1px solid #d3ccbe;
+	 font-size: 14px;
+ }
+ .aside blockquote .footer{
+	 color: #f26522;
+	 line-height: 1;
+ }
+ .aside blockquote .footer span{
+	 color: #938d82;
+	 font-size: 70%;
+	 font-family: verdana, georgia, courier;
+ }

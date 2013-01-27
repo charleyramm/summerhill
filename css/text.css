@@ -1,0 +1,100 @@
+/*
+  960 Grid System ~ Text CSS.
+  Learn more ~ http://960.gs/
+
+  Licensed under GPL and MIT.
+*/
+
+/* `Basic HTML
+----------------------------------------------------------------------------------------------------*/
+
+body {
+  font: 14px/1.5 verdana, courier;
+  color: #252525;
+}
+
+pre,
+code {
+  font-family: "DejaVu Sans Mono", Menlo, Consolas, monospace;
+}
+
+hr {
+  border: 0 solid #ccc;
+  border-top-width: 1px;
+  clear: both;
+  height: 0;
+}
+
+a:link {color: #f26522; }      /* unvisited link */
+a:visited {color: #f26522; }  /* visited link */
+a:hover {color:#f26522; }  /* mouse over link */
+a:active {color:#f26522; }  /* selected link */
+
+dl,
+hr,
+ol,
+ul,
+pre,
+table,
+address,
+fieldset,
+figure, 
+cite
+{
+  font: 14px/1.5 verdana, georgia, courier;
+
+}
+
+blockquote, q{
+	font: 18px/1.5 georgia, verdana, courier;
+	color: #f26522;
+	}
+cite{
+	color: #252525;
+	}
+
+
+
+/* `Spacing
+----------------------------------------------------------------------------------------------------*/
+
+ol {
+  list-style: decimal;
+}
+
+ul {
+  list-style: disc;
+}
+
+li {
+  margin-left: 30px;
+}
+
+p,
+dl,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+pre,
+table,
+address,
+fieldset,
+figure {
+  margin-bottom: 10px;
+}
+
+/* Form elements
+------------------------------------------------------------------------------------------------------*/
+textarea{
+	width: 100%;
+	}
+.nocomments{
+	display: none;
+	}
+

@@ -10,7 +10,9 @@ License URI:
 Tags: 
 Text Domain: 
 
+style.css is where Wordpress looks for CSS by default, but our main styles are in the CSS directory
 */
+
 body{
 	background: #fbf7ef url(<?php bloginfo('stylesheet_directory'); ?>/img/leaves.jpg) repeat-x top;
 	padding-top: 60px;

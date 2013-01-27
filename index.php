@@ -11,9 +11,6 @@ First concieved in HTML5, this version has been adapted for use with earlier bro
 
 Charley Ramm, 27 January 2013
 charleyramm@gmail.com
-
-~~~
-Wordpress theme untested in many browsers. Presumed compatible. 
 -->
 <title>A.S.Neill's Summerhill School founded in 1921 and still ahead of it's time.</title>
 
@@ -83,7 +80,7 @@ h2#post-701{
 								<fieldset>
 								<div><?php edit_post_link(); ?></div>
 								<div><?php wp_link_pages(); ?></div>
-								<div><?php comments_template(); ?></div>
+								<?php //comments_template(); ?>
 							</fieldset>
 							
 							

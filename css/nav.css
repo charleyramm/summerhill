@@ -32,7 +32,7 @@
 }
 
 .current_page_ancestor > a{
-	color: #f26522;
+	color: #f26522 !important;
 }
 
 

@@ -19,16 +19,16 @@ code {
 }
 
 hr {
-  border: 0 solid #ccc;
+  border: 0 dashed #f26522;
   border-top-width: 1px;
   clear: both;
   height: 0;
 }
 
-a:link {color: #f26522; }      /* unvisited link */
-a:visited {color: #f26522; }  /* visited link */
-a:hover {color:#f26522; }  /* mouse over link */
-a:active {color:#f26522; }  /* selected link */
+a:link {color: #f26522; text-decoration: none;}      /* unvisited link */
+a:visited {color: #f26522; text-decoration: none;}  /* visited link */
+a:hover {color:#f26522; text-decoration: none;}  /* mouse over link */
+a:active {color:#f26522; text-decoration: none;}  /* selected link */
 
 dl,
 hr,
@@ -47,11 +47,12 @@ cite
 
 blockquote, q{
 	font: 18px/1.5 georgia, verdana, courier;
-	color: #f26522;
+
 	}
-cite{
-	color: #252525;
+cite, cite a{
+	color: #252525 !important;
 	}
+
 
 
 

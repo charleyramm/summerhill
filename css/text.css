@@ -25,10 +25,10 @@ hr {
   height: 0;
 }
 
-a:link {color: #f26522; text-decoration: none;}      /* unvisited link */
-a:visited {color: #f26522; text-decoration: none;}  /* visited link */
-a:hover {color:#f26522; text-decoration: none;}  /* mouse over link */
-a:active {color:#f26522; text-decoration: none;}  /* selected link */
+a:link {color: #f26522;}      /* unvisited link */
+a:visited {color: #f26522; }  /* visited link */
+a:hover {color:#f26522; }  /* mouse over link */
+a:active {color:#f26522; }  /* selected link */
 
 dl,
 hr,

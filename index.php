@@ -49,6 +49,9 @@ body{
 h2#post-701{
 	display: none;
 }
+h2 a {
+	text-decoration: none;
+}
 </style>
 
 <?php wp_head(); ?> 
@@ -102,17 +105,10 @@ h2#post-701{
 		
 		<!--.aside-->
 		<div class="aside grid_3">
-			<p><a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/summerhill-trust.jpg" /></a></p>
+			<p><a href="http://charleyramm.co.uk/summerhillschool.co.uk/wordpress/?attachment_id=982"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/summerhill-trust.jpg" /></a></p>
 			
-			<p><a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/newsletter.jpg" /></a></p>
-			
-			<blockquote>
-				<img src="<?php bloginfo('stylesheet_directory'); ?>/img/quote-open.jpg" /><br />
-				The convention on the Rights of the Child makes particular reference to children's rights to participate in decisions affecting them, and Summerhill, through its very approach to education, embodies this right in a way that surpasses expectations. 
-				<br /><br />
-				<div class="footer">Paulo David <br /><span>Secretary United Nations Committee on the Rights of the Child</span></div>
-			</blockquote>
-			
+			<p><a href="http://charleyramm.co.uk/summerhillschool.co.uk/wordpress/?attachment_id=984"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/newsletter.jpg" /></a></p>
+
 			<!-- Get dynamic sidebar widgets from Wordpress -->
 			<?php dynamic_sidebar( 'right' ); ?>
 

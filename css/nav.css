@@ -10,13 +10,19 @@
 	border-bottom: 1px dashed #a5a4a4;
 }
 .nav li a{
+	font-weight: bold;
 	text-decoration: none;
 	color: #a5a4a4;
 	padding: 0.5em;
 	display: block;
 	height: 100%;
-
 }
+
+.nav a:link {color: #a5a4a4;}      /* unvisited link */
+.nav a:visited {color: #a5a4a4; }  /* visited link */
+.nav a:hover {color:#f26522; text-decoration: underline;}  /* mouse over link */
+.nav a:active {color:#f26522; text-decoration: underline;}  /* selected link */
+
 .nav ul ul{
 	margin-left: 1em;
 	margin-bottom: 0;
@@ -25,7 +31,9 @@
 .nav ul ul li{
 	border-bottom: none;
 }
-
+.nav ul ul li a{
+	padding: 0.25em;
+	}
 .current_page_item > a{
 	background-color: #f26522;
 	color: white !important;
